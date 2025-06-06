@@ -806,7 +806,7 @@ const FireRiskApp = () => {
       `}</style>
 
       <header className="w-full max-w-6xl text-center py-6">
-        <h1 className="text-4xl font-bold text-red-600">🌍 Google Earth Engine NDVI Analisis</h1>
+        <h1 className="text-4xl font-bold text-red-600">🌍 DETECTOR DE INCENDIOS</h1>
         <p className="text-gray-600 mt-2">
           Análisis NDVI en tiempo real usando Google Earth Engine con datos Sentinel-2, Landsat 8 y MODIS
         </p>
