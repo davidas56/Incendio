@@ -32,7 +32,8 @@ const FireRiskApp = () => {
   const mapContainerRef = useRef()
   const leafletMapRef = useRef()
 
-  const initialPosition = [4.60971, -74.08175] // Bogotá, Colombia
+  const initialPosition = [7.83732, -72.47975]; // Villa del Rosario, Universidad de Pamplona
+
 
   // Load Leaflet and create map manually
   useEffect(() => {
