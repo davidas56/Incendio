@@ -865,31 +865,7 @@ const FireRiskApp = () => {
           </div>
         )}
 
-        <div className="upload-section">
-          <h3 className="font-semibold mb-2 text-sm">🌍 Google Earth Engine</h3>
-          <div className="text-xs mb-2">
-            {eeInitialized ? (
-              <span className="text-green-600">✅ Earth Engine activo</span>
-            ) : (
-              <span className="text-yellow-600">🔄 Inicializando...</span>
-            )}
-            <br />
-            <span className="text-blue-600">📡 Sentinel-2, Landsat 8, MODIS</span>
-          </div>
-          <div className="text-xs text-gray-600 mb-2">
-            • Resolución adaptativa (10m-250m)
-            <br />• Filtros de nubosidad automáticos
-            <br />• Datos de los últimos 12 meses
-          </div>
-          <input
-            type="file"
-            accept="image/*"
-            onChange={handleImageUpload}
-            ref={fileInputRef}
-            className="text-xs mb-2"
-          />
-          {uploadedImage && <p className="text-xs text-blue-600">📁 Imagen local disponible</p>}
-        </div>
+
       </div>
 
       {showModal && (
