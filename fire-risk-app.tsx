@@ -1114,7 +1114,7 @@ const FireRiskApp = () => {
             <strong>📊 Colecciones:</strong> Sentinel-2 (10m), Landsat 8 (30m), MODIS (250m)
           </p>
           <p>Análisis NDVI en tiempo real para evaluación precisa de riesgo de incendios forestales</p>
-          <p>Hecho Por Jose David</p>
+          <p>Hecho Por Davidas</p>
         </div>
       </footer>
     </div>
